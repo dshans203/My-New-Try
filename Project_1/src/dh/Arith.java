@@ -12,7 +12,7 @@ public class Arith {
 		
 		return a-b;
 	}
-   public int div(int a, int b) {
+   public float div(float a, float b) {
 	   
 	   return a/b;
    }
