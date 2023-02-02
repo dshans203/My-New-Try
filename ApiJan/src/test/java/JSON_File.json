@@ -1,0 +1,50 @@
+{
+  "API_Folks": [
+    {
+      "First name": "Deepansh",
+      "Batch_id": "123",
+      "Roll Number": "AA123",
+      "City": "bahardurgarh",
+      "id": "1234"
+    },
+    {
+      "First name": "Deepanshu",
+      "Batch_id": "123",
+      "Roll Number": "AA123",
+      "City": "bahardurgarh",
+      "id": "1214"
+    },
+    {
+      "First name": "Deepanshu",
+      "Batch_id": "123",
+      "Roll Number": "AA123",
+      "City": "bahardurgarh",
+      "id": "1213"
+    },
+    {
+      "First name": "Deepanshu",
+      "Batch_id": "123",
+      "Roll Number": "AA123",
+      "City": "bahardurgarh",
+      "id": "{{id}}"
+    },
+    {
+      "Address": [
+        {
+          "Type": "primary",
+          "CNPJ": "123654",
+          "NearestPoint": "Peterson Cafeteria",
+          "Street 2": "LOndon's Street"
+        },
+        {
+          "Type": "Secondary",
+          "NearestPoint": "Peterson Cafeteria",
+          "Street 2": "LOndon's Street"
+        }
+      ],
+      "FirstName": "LOndon's Street",
+      "Lastname": "Peterson Cafeteria",
+      "id": "123654"
+    }
+  ]
+}

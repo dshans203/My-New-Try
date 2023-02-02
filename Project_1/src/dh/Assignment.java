@@ -15,6 +15,7 @@ public class Assignment {
 		this.m1(2);
 		this.m3(3, 4,5);
 		System.out.println("Second parameterised method");
+		this.m();
 	}
 	
 	public void m3(int a, int b, int c) {
