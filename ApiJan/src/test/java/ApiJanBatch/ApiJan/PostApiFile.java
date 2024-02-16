@@ -19,10 +19,12 @@ public class PostApiFile {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 	
-	File f= new File("../ApiJan/src/test/java/JSON_File.json");
-	FileReader fr= new FileReader(f);
+	File f= new File("../ApiJan/src/test/java/JSON_File.json"); //Keyword Framework
+	
+	FileReader fr= new FileReader(f);  
 	JSONTokener jr= new JSONTokener(fr);
 	JSONObject j= new JSONObject(jr);
+	
 	
 	String bodydata= j.toString();
 	
@@ -34,7 +36,7 @@ public class PostApiFile {
 	
 	bodydata=bodydata.replaceAll(Pattern.quote("{{id}}"), id.toString());
 	
-	Response res=
+	Response res=                                      //BDD Approach
 			given()
 		   .contentType(ContentType.JSON)
 		   .body(bodydata.toString())
